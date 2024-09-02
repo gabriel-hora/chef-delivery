@@ -24,6 +24,8 @@
 		D46969882C860B1300F3A25F /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46969872C860B1300F3A25F /* StoreItemView.swift */; };
 		D469698A2C860C9000F3A25F /* StoreContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46969892C860C9000F3A25F /* StoreContainerView.swift */; };
 		D469698C2C8611DA00F3A25F /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D469698B2C8611DA00F3A25F /* StoreDetailView.swift */; };
+		D469698E2C86170000F3A25F /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D469698D2C86170000F3A25F /* StoreType.swift */; };
+		D46969902C86173800F3A25F /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D469698F2C86173800F3A25F /* ProductType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		D46969872C860B1300F3A25F /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		D46969892C860C9000F3A25F /* StoreContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreContainerView.swift; sourceTree = "<group>"; };
 		D469698B2C8611DA00F3A25F /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
+		D469698D2C86170000F3A25F /* StoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
+		D469698F2C86173800F3A25F /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,8 @@
 			children = (
 				D469697B2C810ED300F3A25F /* OrderType.swift */,
 				D469697D2C810F4A00F3A25F /* DataSourceMock.swift */,
+				D469698D2C86170000F3A25F /* StoreType.swift */,
+				D469698F2C86173800F3A25F /* ProductType.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D469697C2C810ED300F3A25F /* OrderType.swift in Sources */,
+				D46969902C86173800F3A25F /* ProductType.swift in Sources */,
 				D46969832C8565E800F3A25F /* CarouselItemView.swift in Sources */,
 				D46968F02C8106BE00F3A25F /* ContentView.swift in Sources */,
 				D469697E2C810F4A00F3A25F /* DataSourceMock.swift in Sources */,
@@ -346,6 +353,7 @@
 				D46968EE2C8106BE00F3A25F /* ChefDeliveryApp.swift in Sources */,
 				D469691C2C8108D900F3A25F /* NavigationBar.swift in Sources */,
 				D46969852C85671400F3A25F /* CarouselTabView.swift in Sources */,
+				D469698E2C86170000F3A25F /* StoreType.swift in Sources */,
 				D469698A2C860C9000F3A25F /* StoreContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +518,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChefDelivery/Preview Content\"";
+				DEVELOPMENT_TEAM = 6J35D74CN6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -538,6 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChefDelivery/Preview Content\"";
+				DEVELOPMENT_TEAM = 6J35D74CN6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
